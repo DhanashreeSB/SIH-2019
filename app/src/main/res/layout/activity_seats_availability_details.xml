@@ -143,6 +143,40 @@
         android:background="@color/faintgray">
     </TableRow>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Total Number of Regular seats Available : "
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/total_regular_seats_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40"
+                    android:textColor="@color/black"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <TableRow
+            android:id="@+id/hr8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/faintgray">
+        </TableRow>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -191,6 +225,7 @@
                 android:text="Total No. of RCS seats Booked : "
                 android:textSize="15sp"/>
             <TextView
+                android:id="@+id/total_rcs_booked"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="40"
@@ -203,39 +238,7 @@
 
             </RelativeLayout>
         </LinearLayout>
-        <TableRow
-            android:id="@+id/hr5"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/faintgray">
-        </TableRow>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:text="Total No. of Regular seats Booked : "
-                android:textSize="15sp"/>
-            <TextView
-                android:id="@+id/rcs_seats_booked"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="40"
-                android:textColor="@color/black"
-                android:layout_gravity="right"
-                android:layout_weight="1"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:textSize="15sp"/>
-            </RelativeLayout>
-        </LinearLayout>
     </LinearLayout>
     </android.support.v7.widget.CardView>
 
