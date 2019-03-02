@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DrawerLegalRightsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/legalrights1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/legalrights2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/legal3"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your rights under EC 261"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="EC 261 is an extensive bit of legislation which requires airlines to compensate passengers in the event of:\n1)Denied boarding\n2)Flight cancellation \n3)Long delay of flights (three or more hours)\n
+The amount of compensation passengers are entitled to depends on a lot of factors including the distance traveled and the amount of time you are delayed reaching your final destination.
+In addition to monetary compensation, EC 261 includes other rights relating to your treatment. Here are some of the highlights:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Obligation to inform passengers of their rights"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Your first basic right is to be informed about the content of EC 261. Every airline has to display information on passengers’ rights at their check-in counters in every airport where they operate. If our breakdown of the legalese is still not enough, you can read the actual text of EC 261, as well."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right to reimbursement or re-routing"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="In addition to compensation for your loss of time, if your delay exceeds five hours, you are entitled to a full or partial refund of your original ticket and a return flight to your point of departure, if needed."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right to care"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="When a flight disruption occurs and you’re stuck waiting for the airline to get you back on track toward your destination, you’re entitled to a number of essentials, depending on your flight details. The carrier must provide you with:
+    \n\t1) Meals and refreshments during the delay
+    \n\t2)Access to communications, including two telephone calls, telex or fax messages, and emails \n\t3)If overnight accommodations are necessary, they must provide you with a hotel room and transportation to and from the airport"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upgrading and downgrading"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="If you are offered an alternative flight and placed in a higher class than the one you booked, the air carrier cannot charge you any additional payment. On the other hand, if the class of the alternative flight is lower, you can get a reimbursement between 30% and 75% of the price you originally paid."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Further compensation"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Your right to compensation under EC 261 does not affect your right to request further compensation. This rule does not apply in cases where passengers have voluntarily surrendered their reservations. Of course, the amount you are entitled to under EC 261 may be deducted from whatever additional compensation you receive."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which Flights are Covered by EC 261?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Most routes within Europe are covered. This includes not only EU airspace, but also Iceland, Norway, Switzerland and the so-called “outermost regions” (French Guiana and Martinique, Mayotte, Guadeloupe and La Réunion, Saint-Martin, Madeira and the Azores, and the Canary Islands).Many international flights are covered, as well. If your flight departs from an airport in the EU, it’s covered. If your flight departs from elsewhere but your destination is in the EU, coverage depends on the airline ⎯ if it’s a European carrier, you’re covered."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upgrading and downgrading"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="If you are offered an alternative flight and placed in a higher class than the one you booked, the air carrier cannot charge you any additional payment. On the other hand, if the class of the alternative flight is lower, you can get a reimbursement between 30% and 75% of the price you originally paid."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Further compensation"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Your right to compensation under EC 261 does not affect your right to request further compensation. This rule does not apply in cases where passengers have voluntarily surrendered their reservations. Of course, the amount you are entitled to under EC 261 may be deducted from whatever additional compensation you receive."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What’s Not Covered: Extraordinary Circumstances"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="EC 261 says that airlines do not have to pay compensation if the disruption was caused by ‘extraordinary circumstances’ which are events outside of their control."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Is there a time limit to file a claim?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Your right to compensation under EC 261 does eventually expire, but the time limit varies from one country to the next.
+You should note that the country you claim in is not decided by your nationality, but is determined by where the headquarters of the airline is, or what court has jurisdiction in cases concerning the airline."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TableRow
+                    android:id="@+id/hr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444">
+
+                </TableRow>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Air Passenger Rights"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What are air passenger rights?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Your right to compensation under EC 261 does eventually expire, but the time limit varies from one country to the next.
+You should note that the country you claim in is not decided by your nationality, but is determined by where the headquarters of the airline is, or what court has jurisdiction in cases concerning the airline."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

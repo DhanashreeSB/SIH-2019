@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Fly</string>
+    <string name="login_preference">com.example.shyam.fly_login_preference2</string>
+    <string name="login_status_preference">com.example.shyam.fly_login_status_preference2</string>
+
+    <!--Login and Register-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="register">Register</string>
+    <string name="e_mail">E-mail</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="signup_now">Signup Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signup">SignUp</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Bottom Navigation-->
+    <string name="nav_home">Home</string>
+    <string name="nav_trip">Trips</string>
+    <string name="nav_notification">Notification</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Flight Booking Fragment-->
+    <string name="from">FROM</string>
+    <string name="del">DEL</string>
+    <string name="new_delhi">New Delhi</string>
+    <string name="to">TO</string>
+    <string name="bom">BOM</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="depart_on">Depart on</string>
+    <string name="_20_sep">20 SEP</string>
+    <string name="tuesday_2016">Tuesday, 2016</string>
+    <string name="return_on">Return on</string>
+    <string name="_22_sep">22 SEP</string>
+    <string name="thursday_2016">Thursday, 2016</string>
+    <string name="adults">Adults</string>
+    <string name="_10_years">10+ years</string>
+    <string name="_2">2</string>
+    <string name="childrens">Childrens</string>
+    <string name="_2_10_years">2-10 years</string>
+    <string name="_0">0</string>
+    <string name="infants">Infants</string>
+    <string name="_1_2_years">1-2 years</string>
+    <string name="first">First</string>
+    <string name="business">Business</string>
+    <string name="economy">Economy</string>
+    <string name="search_flight">SEARCH FLIGHT</string>
+    <string name="one_way">One Way</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="multi_city">Multi City</string>
+    <string name="title_activity_available_flights_display">AvailableFlightsDisplay</string>
+
+    <!--Tourism Fragment-->
+    <string name="description_place_amritsar">Before you turn 30, it is a must visit this spiritual and historical getaway that promises the nourishment of the soul. Spend some time revisiting the significant history of Amritsar while making sure that you do not miss out on visiting the famous Golden Temple as well. The experience is simply worth it. </string>
+    <string name="description_place_assam">Stay set to be overwhelmed by the sceneries, flora, and fauna of the Dibru Saikhowa National Park. And this wildlife expedition is not the same as any jeep safari. Instead, activities like jungle walk and boat ride are conducted during the months of November to April. Cruise along the Brahmaputra river to witness the animals in their most natural habitats.</string>
+    <string name="description_place_dalhousie">Other than the refreshing greens, magnificent views of the mountains, gushing rivers, and the mesmerizing beauty of the nature, Dalhousie is also considered to be famous for its Victorian architecture. Once a summer capital of the British, Dalhousie is also one of the best holiday destinations in India.</string>
+    <string name="description_place_mahabaleshwar">Considered to be one of the most picturesque tourist destinations in India, Mahabaleshwar is one of the refreshing retreats that Western Ghats has to offer to the travelers. From the cascading waterfalls to the lush green ghats, your visit to Mahabaleshwar will be wrapped in mist and guided by the clouds.</string>
+    <string name="description_place_mahabalipuram">A quaint little town that lies on a stretch of a land between the Great Salt Lake, and the Bay of Bengal, Mahabalipuram is also much famed as Mamallapuram by the locals. Famous for the monuments and temples that date back to the 7th century, Mahabalipuram is a living witness to the great works of the Pallava dynasty.</string>
+    <string name="description_place_manali">The most famous resort town nestled amidst the snow-capped mountains, Manali is the popular gem in the heart of Himachal Pradesh. A mesmerizing combination of nature, peace, and adventure, Manali is one of the best holiday destinations in India for all travelers.</string>
+    <string name="description_place_mumbai">The city that lets you live a carefree life and the one that never sleeps. Mumbai is about its people, the spirit of enjoying the nightclubs and of course Bollywood. Live like a mumbaikar, bite into the vada pav and sip a chai on your way to the locals.</string>
+    <string name="description_place_mysore">Comprising a bit of the old and new, Mysore has risen from the status of a royal city (which it still is) to be a hardcore IT hub. Renowned across the world for its gorgeous silk sarees, do not forget to treat your sweet tooth to some mouthwatering Mysore Pak on your next trip.</string>
+    <string name="description_place_ooty">Much famed as Udhagamandalam amongst the locals, Ooty is one of the most popular and frequented holiday destinations in India. Home to mighty rock mountains, the thrilling Nilgiri Mountain Railway, refreshing gardens, and dangerous hair-pin bends, Ooty never fails to charm the travelers with its magic.</string>
+    <string name="description_place_orissa">Travel to the historical land which serves as a home to many age-old Hindu temples. Situated by the sea, Konark Temple in Orissa is one of the famous temples that tells you many interesting stories about the origin of human sexuality. Also, for those who have enough time, beautiful highways in Orissa lead to some exceptionally picturesque attractions that are yet to be explored.</string>
+    <string name="legalrights1">While it’s true that individual countries abide by their own laws, there are some key features of regional or international laws that serve as powerful tools to air passengers. These include, but are not limited to, EU legislation EC 261, various US laws, and the Montreal Convention.Certain regulations have a wider reach or prove more advantageous than others. However, it’s best to remember that disrupted flight circumstances can differ significantly, and it’s helpful to know which strengths you can rely on for your journey.</string>
+    <string name="legalrights2">EC 261 Compensation for Disrupted Flights</string>
+    <string name="legal3">Travelers often do not understand that in many instances, airlines are legally and financially responsible for flight issues, not the passenger. Depending on your flight, flight scenario, and ultimate destination, understanding passenger rights and filing a claim can mean up to $700 per flight in reimbursements. AirHelp can assist with our staff of legal experts to iron out the finer details and legal jargon.</string>
+    <string name="title_activity_nearby_airports">Map</string>
+    <string name="terms_and_conditions">Information contained in the app(including text, graphics, links or other material) are provided on an \'as is\', and \'where available\' basis. Makes no representation or warranty, express or implied, to you or another person or entity as to the accuracy, results, timeliness, completeness, merchantability, fitness for any particular purpose, including but not limited to warranties arising by statute or otherwise in law or from a course of dealing or usage of trade, with respect to the site or any related materials, products, services, or information. Under no circumstances, including, but not limited to negligence, shall we, our providers or distributors, be liable for any damages to, or viruses that may infect, your computer equipment or other property, or any loss of data, on account of your access to, use of, or browsing on the site, or your downloading of any materials, data, text, images, video, audio, or other information from the site or associated with any email or links sent to you by akbar travels of india ltd.. In no event shall we, our providers or distributors, be liable for any injury, loss, claim, damage, or any special, punitive, exemplary, direct, indirect, incidental, or consequential damages of any kind (including, but not limited to, lost profits , lost business, or lost savings), whether based in contract, tort, strict liability, or otherwise, that arise out of or are in any way connected with the use, or the inability to use, the site or the services or materials on the site or the travel reservations booked through fly app(whether through this app or call center), even if advised of the possibility of such damages. In no event shall our aggregate liability, or that of our providers or distributors, exceed the total charges set forth in the itinerary giving rise to any such liability. Any claim or cause of action arising from, or relating to, your access and use of, or purchase of products and/or services from, the site must be brought within one-hundred and eighty (180) days from the date on which such claim or action arose or accrued or purchase was completed. Applicable law may not allow the limitation or exclusion of liability of incidental or consequential damages, so the above limitation or exclusion may not apply to you. Your use of the site shall be at your own risk. We are acting as an intermediary or as an agent for providers of travel-related products and/or services by promoting, selling or accepting reservations or bookings for such products and/or services (such as air and ground transportation, hotel accommodations, meals, tours, cruises, travel insurance, etc.) And are in no way liable for such providers products and services. We are in no way liable for any loss of or damage to property or injury to any person caused by reason of any defect, negligence, or other wrongful act of omission of, or any failure of performance of any kind by any Travel Supplier; any inconvenience, loss of enjoyment, mental distress or other similar matter; any delayed departure, missed connections, substitutions of accommodations, terminations of service, or changes in fares and rates any cancellation or double-booking of reservations or tickets beyond the reasonable control of Fly App; and any claim of any nature arising out of or in connection with air or other transportation services, products or other features performed (or not) or occurring (or not) in connection with your itinerary. For avoidance of doubt (and without limiting the foregoing), Fly App does not assume any liability whatsoever for cancelled flights, flights that are missed, or flights not connecting due to any scheduled changes made by the relevant airline. The limitation of liability reflects the allocation of risk between you and Akbar Travels of India Ltd. The limitations specified in these Terms and Conditions shall survive and apply even if any limited remedy specified in these Terms and Conditions is found to have failed of its essential purpose. The limitations of liability provided in these Terms and Conditions inure to the benefit of Fly, its affiliates, and the suppliers of travel products and services purchased through our Site.</string>
+</resources>

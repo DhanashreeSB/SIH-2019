@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bookingHistory"
+            android:icon="@drawable/history"
+            android:title="Booking History" />
+        <item
+            android:id="@+id/nav_rights"
+            android:icon="@drawable/auction"
+            android:title="Legal rights of passenger" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/informationbutton"
+            android:title="About App" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/questionmark"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Terms and Conditions" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout2"
+            android:title="Log Out" />
+
+    </group>
+
+</menu>

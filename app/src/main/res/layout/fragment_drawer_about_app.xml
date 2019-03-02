@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DrawerLegalRightsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fly app has been assisting the passengers to make wise decisions and smart travel plans using the one stop shopping place for their vacation and travel needs. Passengers can get the cheapest Air, Rail tickets and Hotel bookings for both domestic and international destinations.  With more Airlines added to the list, the app becomes a one-stop-shop for passengers to buy all their tickets. Holiday packages for the budget conscious passenger is promoted on Fly app Excellent holiday packages priced at most affordable rates are available for all tourism hot spots in India and abroad."
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Corporate Travel demands promptness and efficiency. In order to provide all travel related services to this sophisticated travel segment, understanding the requirements of the corporate traveler is of prime importance. Our aim is to provide personalized service through highly trained teams at optimum cost. All auxiliary travel services as required are provided, along with our 24 hours back up service through the Customer Service help desk. Outstanding personal service being our strong point, we assign a well experienced Account Manager to each client to build up knowledge of their specific needs and business related travel requirements. This not only ensures consistency in quality of service, but also provides us valuable insights for individual requirements."
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

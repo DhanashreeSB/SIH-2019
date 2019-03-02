@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/nav_trip"
+        android:icon="@drawable/beach"
+        android:title="@string/nav_trip" />
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/notifications_24dp"
+        android:title="@string/nav_notification" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/person_24dp"
+        android:title="@string/nav_profile" />
+</menu>
